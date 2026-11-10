@@ -92,6 +92,8 @@ flowchart TD
 
 ## 参考依据
 
+以下资料用于核查部分工程建议的来源与适用条件；仅在需要确认原意或更新指导时查阅。七步组织及协作方式是结合个人实践形成的约定。
+
 - [NIST SSDF：将安全实践融入软件开发生命周期](https://csrc.nist.gov/pubs/sp/800/218/final)
 - [Agile Alliance：以可用增量推进开发](https://agilealliance.org/glossary/incremental-development/)
 - [Google：设计、复杂性与测试审查](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
