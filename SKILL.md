@@ -2,7 +2,7 @@
 name: learn-or-do
 description: "围绕具体概念、代码模块、流程或实践任务，引导学习、完成最小实现或边学边做；根据当前目标和实践反馈增量建立理解、推进工作。"
 metadata:
-  version: "0.8"
+  version: "0.9"
 ---
 
 # Learn or Do
