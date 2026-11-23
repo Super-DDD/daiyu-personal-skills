@@ -10,7 +10,7 @@
 
 ## 本机使用
 
-本机的 `~/.codex/skills/learn-or-do`、`~/.codex/skills/thought-to-skill`，以及笔记中的 learn-or-do 源目录，通过软链接指向本仓库；修改任一入口即修改同一份文件。
+本仓库的实体目录位于 Obsidian 笔记库根目录的 `daiyu-personal-skills/`，完整保存文件和 Git 历史。`~/.codex/skills/learn-or-do`、`~/.codex/skills/thought-to-skill` 分别通过软链接直接指向本仓库中的同名目录；`~/daiyu-personal-skills` 保留为指向本仓库的兼容链接。修改任一入口即修改同一份文件。笔记仓库忽略本目录，Skill 内容由本仓库独立管理。
 
 更新后在本仓库提交并推送：
 
@@ -20,4 +20,4 @@ git commit -m "Update personal skills"
 git push
 ```
 
-其他设备先克隆本仓库，再将所需 Skill 目录链接或安装到该设备的 Skill 目录。更新使用 `git pull --ff-only`。
+其他设备先将本仓库克隆到 Obsidian 笔记库根目录的 `daiyu-personal-skills/`，再将所需 Skill 目录链接或安装到该设备的 Skill 目录。笔记库位置改变时需调整外部链接。更新使用 `git pull --ff-only`。
