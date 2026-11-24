@@ -1,0 +1,5 @@
+interface:
+  display_name: "prototype"
+  short_description: "用可运行的逻辑或 UI prototype 验证一个具体设计问题"
+policy:
+  allow_implicit_invocation: false

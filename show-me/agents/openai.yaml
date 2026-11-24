@@ -1,0 +1,6 @@
+interface:
+  display_name: "Show Me｜展示改动"
+  short_description: "展示本轮成果、前后变化和验证证据，说明重要取舍及待审事项"
+  default_prompt: "用 $show-me 展示刚才的改动，让我看一下实际效果。"
+policy:
+  allow_implicit_invocation: false

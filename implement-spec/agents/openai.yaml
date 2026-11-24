@@ -1,0 +1,5 @@
+interface:
+  display_name: "implement-spec"
+  short_description: "按 ticket 依赖并行实现整份 spec，合入 integration branch 并审查"
+policy:
+  allow_implicit_invocation: false

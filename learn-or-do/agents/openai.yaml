@@ -1,4 +1,6 @@
 interface:
   display_name: "Learn or Do"
-  short_description: "从具体目标出发，逐步建立理解、完成最小实现，并根据实践反馈修正"
-  default_prompt: "用 $learn-or-do 引导我学习或完成这件事。背景是：……；我想：……。"
+  short_description: "按当前进展推荐澄清意图、明确要求、建模或实施的下一步"
+  default_prompt: "用 $learn-or-do 根据我刚才说的情况，帮我选下一步。"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "to-spec"
+  short_description: "把已有讨论整理成工程 spec，确认测试 seam 后写入项目 tracker"
+policy:
+  allow_implicit_invocation: false

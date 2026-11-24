@@ -1,0 +1,6 @@
+interface:
+  display_name: "Spec"
+  short_description: "明确目标、范围、约束、交付内容和完成条件"
+  default_prompt: "用 $spec 把我已有的需求整理成一份可判断完成的规格。"
+policy:
+  allow_implicit_invocation: false

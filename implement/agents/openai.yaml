@@ -1,0 +1,6 @@
+interface:
+  display_name: "Implement"
+  short_description: "按已有要求或方案实施、应用或练习，交付本轮结果"
+  default_prompt: "用 $implement 按我给出的要求和方案完成这一步。"
+policy:
+  allow_implicit_invocation: false

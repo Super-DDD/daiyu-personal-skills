@@ -1,0 +1,5 @@
+interface:
+  display_name: "domain-modeling"
+  short_description: "澄清领域术语与边界，维护 glossary、Glossary Map 和 ADR"
+policy:
+  allow_implicit_invocation: false

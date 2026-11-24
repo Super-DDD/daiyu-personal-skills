@@ -1,0 +1,5 @@
+interface:
+  display_name: "Writing for Agents｜为 Agent 编写文档"
+  short_description: "编写或审阅 Skill、AGENTS.md 等 Agent 使用的文档"
+policy:
+  allow_implicit_invocation: false

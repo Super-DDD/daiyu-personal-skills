@@ -1,0 +1,6 @@
+interface:
+  display_name: "明确问题与价值"
+  short_description: "梳理业务现状、涉众诉求、优先级和成功标准"
+  default_prompt: "用 $software-problem-framing 帮我理清这个项目为什么做、为谁做，以及怎样判断有价值。"
+policy:
+  allow_implicit_invocation: false

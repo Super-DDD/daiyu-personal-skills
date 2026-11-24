@@ -1,0 +1,5 @@
+interface:
+  display_name: "code-review"
+  short_description: "从 Standards 和 Spec 两个维度独立审查指定范围的代码改动"
+policy:
+  allow_implicit_invocation: false

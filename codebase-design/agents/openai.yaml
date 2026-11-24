@@ -1,0 +1,5 @@
+interface:
+  display_name: "codebase-design"
+  short_description: "设计 deep module，判断 interface、seam 和 adapter 的位置"
+policy:
+  allow_implicit_invocation: false

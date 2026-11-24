@@ -1,0 +1,5 @@
+interface:
+  display_name: "grill-me"
+  short_description: "通过分轮访谈澄清计划或设计，适合没有项目工作目录时使用"
+policy:
+  allow_implicit_invocation: false

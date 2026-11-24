@@ -1,0 +1,5 @@
+interface:
+  display_name: "pr"
+  short_description: "用变更示意、前后证据和合并风险编写便于审查的 PR 正文"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "tdd"
+  short_description: "在约定的 seam 上以 red → green 循环实现可观察的行为"
+policy:
+  allow_implicit_invocation: false

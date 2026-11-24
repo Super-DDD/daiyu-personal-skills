@@ -1,0 +1,6 @@
+interface:
+  display_name: "Intent"
+  short_description: "理清当前问题的背景、目的和希望解决的事"
+  default_prompt: "用 $intent 帮我理清这个问题的背景和目的。"
+policy:
+  allow_implicit_invocation: false

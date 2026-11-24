@@ -1,0 +1,5 @@
+interface:
+  display_name: "grilling"
+  short_description: "按设计决定的依赖分轮访谈，每轮列出当前可问的问题和推荐答案"
+policy:
+  allow_implicit_invocation: false

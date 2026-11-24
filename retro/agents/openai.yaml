@@ -1,0 +1,5 @@
+interface:
+  display_name: "retro"
+  short_description: "回顾一次开发会话，提出对编码 agent 工作环境的改进建议"
+policy:
+  allow_implicit_invocation: false

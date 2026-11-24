@@ -1,0 +1,5 @@
+interface:
+  display_name: "to-tickets"
+  short_description: "把 spec 拆成可独立验证的 ticket，确认依赖后发布到 tracker"
+policy:
+  allow_implicit_invocation: false

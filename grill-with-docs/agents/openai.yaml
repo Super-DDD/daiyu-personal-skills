@@ -1,0 +1,5 @@
+interface:
+  display_name: "grill-with-docs"
+  short_description: "结合代码追问设计，在讨论中维护 glossary 并记录关键 ADR"
+policy:
+  allow_implicit_invocation: false

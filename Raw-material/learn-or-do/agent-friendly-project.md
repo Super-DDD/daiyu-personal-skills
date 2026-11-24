@@ -2,7 +2,7 @@
 
 围绕新建项目、已有项目整体或指定子模块，形成连贯的软件工程认识与文档，再将知识、接口、工作方法和必要工具组织到项目中，使 Agent 能理解、开展、验证和维护工作。
 
-协作、Spec、执行授权及 Eval／Review 沿用主体 [Learn or Do](../SKILL.md)，工程分析复用[软件工程实践参考](software-engineering.md)。本参考补充如何将认识内化到项目，不要求产品本身具备 AI 功能。
+协作、Spec、执行授权及 Eval／Review 沿用主体 [Learn or Do](daiyu-personal-skills/learn-or-do/SKILL.md)，工程分析复用[软件工程实践参考](software-engineering.md)。本参考补充如何将认识内化到项目，不要求产品本身具备 AI 功能。
 
 ## 适用范围与开始方式
 

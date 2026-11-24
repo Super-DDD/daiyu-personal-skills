@@ -1,0 +1,5 @@
+interface:
+  display_name: "setup-matt-pocock-skills"
+  short_description: "配置当前 repo 的 issue tracker、领域文档布局与适用的 labels"
+policy:
+  allow_implicit_invocation: false

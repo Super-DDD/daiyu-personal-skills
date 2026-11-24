@@ -1,0 +1,5 @@
+interface:
+  display_name: "ask-matt"
+  short_description: "根据项目当前进展，推荐下一步开发 Skill 和可直接使用的命令"
+policy:
+  allow_implicit_invocation: false

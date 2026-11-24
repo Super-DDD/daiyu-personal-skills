@@ -1,6 +1,6 @@
 # AI-native 项目改造流程｜共同梳理稿
 
-状态：流程已获用户认可，已内化为 Learn or Do 的专题参考 [AI-native 项目梳理与内化](../../learn-or-do/references/agent-friendly-project.md)。本稿保留共同理解、设计依据和讨论历史。
+状态：流程已获用户认可，已内化为 Learn or Do 的专题参考 [AI-native 项目梳理与内化](agent-friendly-project.md)。本稿保留共同理解、设计依据和讨论历史。
 
 ## 背景与目标
 
