@@ -1,6 +1,6 @@
 interface:
   display_name: "Verify｜验证"
-  short_description: "对照 Spec、概念完整性与复杂性核对成果，说明偏差并复验"
-  default_prompt: "用 $verify 检查刚才的结果是否满足约定，并给我相应的证据。"
+  short_description: "由三个 Agent 分别检查 Spec、概念完整性与复杂性，汇总发现与依据"
+  default_prompt: "用 $verify 从三个方向独立检查刚才的成果，汇总发现并说明依据。"
 policy:
   allow_implicit_invocation: false

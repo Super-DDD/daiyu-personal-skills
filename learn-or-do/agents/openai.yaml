@@ -1,6 +1,6 @@
 interface:
   display_name: "Learn or Do"
-  short_description: "按当前进展推荐澄清意图、明确要求、建模或实施的下一步"
-  default_prompt: "用 $learn-or-do 根据我刚才说的情况，帮我选下一步。"
+  short_description: "按当前任务选择合适的 Skill，说明选择并直接执行当前环节"
+  default_prompt: "用 $learn-or-do 根据我刚才说的情况，选择合适的 Skill 并直接执行。"
 policy:
   allow_implicit_invocation: false

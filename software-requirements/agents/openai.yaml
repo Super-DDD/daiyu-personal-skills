@@ -1,6 +1,6 @@
 interface:
   display_name: "梳理需求与业务"
-  short_description: "从用例和领域规则梳理业务需求、质量要求和验收条件"
-  default_prompt: "用 $software-requirements 按已有的业务背景梳理关键用例、业务规则和验收条件。"
+  short_description: "从用例、规则和验收条件推进 DDD 战略设计，明确模型边界与上下文关系"
+  default_prompt: "用 $software-requirements 用业务语言梳理关键用例和验收条件，分析子域、候选限界上下文及其关系。"
 policy:
   allow_implicit_invocation: false

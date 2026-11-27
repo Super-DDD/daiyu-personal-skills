@@ -6,12 +6,16 @@
 
 | 入口 | 采用的工作方式 | 调用示例 |
 | --- | --- | --- |
-| [`$learn-or-do`](learn-or-do/SKILL.md) | 按 Intent → Spec → Modeling → Implement 选步，支持学习、实践，也支持实现、验证和交付软件。 | `$learn-or-do 导出功能的方案已定，我想按方案实现。` |
+| [`$learn-or-do`](learn-or-do/SKILL.md) | 按当前任务选择 Skill，说明选择并直接执行学习、实践、实现或验证等环节。 | `$learn-or-do 导出功能的方案已定，我想按方案实现。` |
 | [`$ask-matt`](ask-matt/SKILL.md) | 按 Matt Pocock 的标准开发流程选步，可从想法、spec、ticket 或代码改动开始。 | `$ask-matt 导出功能的 spec 已写好，我想拆成 ticket。` |
 
 ## 其他 Skill 与参考资料
 
+- [`$aligning`](aligning/SKILL.md) 围绕一个问题持续追问，通过逐轮访谈对齐双方的目标、想法或需求。
+- [`$challenging`](challenging/SKILL.md) 围绕刚讨论过的关键点逐轮出判断题，每轮答后给反馈，再根据你的回答继续追问。
+- [`$grounding`](grounding/SKILL.md) 把已有讨论整理为 Background、Intent 和 Spec，先确认需求，再约定可行的验收方式。
 - [`$verify`](verify/SKILL.md) 核对当前成果与约定，给出证据。[`$show-me`](show-me/SKILL.md) 展示本轮实际变化，可在任一阶段单独调用。
+- [`$human-pr`](human-pr/SKILL.md) 确认范围和分组后逐组提 MR，陪你读懂改动并逐轮问询，并根据评论更新原 MR。想沿业务用例通读源码时用 [`$walking-through-code`](walking-through-code/SKILL.md)，想让 Agent 提问检验理解时用 [`$code-mastery`](code-mastery/SKILL.md)。
 - 需要专门分析业务问题、需求或概要设计时，见[软件工程理解与概要设计](learn-or-do/references/software-engineering.md)。
 - [Thought to Skill](thought-to-skill/SKILL.md) 将经验、想法与实践反馈提炼为可试用的 Skill。
 - [Bro｜说人话](bro/SKILL.md) 是 [Poteto 的 bro](https://github.com/cursor/plugins/blob/7a58391/pstack/skills/bro/SKILL.md) 的中文译本。
@@ -28,7 +32,7 @@
 更新后在本仓库提交并推送：
 
 ```sh
-git add ask-matt grill-me grilling grill-with-docs domain-modeling prototype setup-matt-pocock-skills to-spec to-tickets implement-spec tdd codebase-design code-review pr retro intent spec modeling implement bro why challenge-me handoff writing-for-agents learn-or-do verify show-me thought-to-skill software-problem-framing software-requirements software-high-level-design Raw-material README.md
+git add ask-matt grill-me grilling grill-with-docs domain-modeling prototype setup-matt-pocock-skills to-spec to-tickets implement-spec tdd codebase-design code-review human-pr walking-through-code code-mastery pr retro intent spec modeling implement bro why challenge-me handoff writing-for-agents learn-or-do verify show-me thought-to-skill software-problem-framing software-requirements software-high-level-design Raw-material README.md
 git commit -m "Update personal skills"
 git push
 ```

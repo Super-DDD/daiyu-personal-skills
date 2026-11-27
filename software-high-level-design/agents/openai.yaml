@@ -1,6 +1,6 @@
 interface:
   display_name: "建立概要设计"
-  short_description: "梳理业务边界、架构与系统协作，说明关键设计取舍"
-  default_prompt: "用 $software-high-level-design 根据已有场景和要求梳理系统的概要设计。"
+  short_description: "根据已有模型边界和质量要求设计模块、接口及协作方式，说明架构取舍"
+  default_prompt: "用 $software-high-level-design 根据已有模型边界、场景和质量要求，说明模块职责、接口契约与架构取舍。"
 policy:
   allow_implicit_invocation: false

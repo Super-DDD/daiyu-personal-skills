@@ -2,20 +2,20 @@
 
 用于系统地理解已有软件，或从一个问题推进到概要设计。通常按 **明确问题与价值 → 梳理需求与业务 → 建立概要设计** 的顺序进行。
 
-| 手动入口 | 带入材料 | 本环节结束时交付 |
+| Skill 入口 | 带入材料 | 本环节结束时交付 |
 | --- | --- | --- |
 | [`$software-problem-framing`](../../software-problem-framing/SKILL.md) | 初步想法、业务资料、访谈或现状问题 | 业务背景、涉众诉求、目标优先级、范围和成功标准 |
-| [`$software-requirements`](../../software-requirements/SKILL.md) | 前一步的问题说明，或等效的业务材料 | 代表用例、关键规则、状态和事实归属、质量要求与验收条件 |
-| [`$software-high-level-design`](../../software-high-level-design/SKILL.md) | 需求与业务分析结果，或等效的场景、规则和约束 | 对现状架构的解释，或概要设计及其边界、协作方式和关键取舍 |
+| [`$software-requirements`](../../software-requirements/SKILL.md) | 前一步的问题说明，或等效的业务材料 | 代表用例、关键规则、状态和事实归属、质量要求与验收条件，以及子域与投入重点、候选限界上下文和上下文映射 |
+| [`$software-high-level-design`](../../software-high-level-design/SKILL.md) | 需求与业务分析结果，或足以支撑架构判断的场景、模型边界和质量约束 | 对现状架构的解释，或概要设计及其边界、协作方式和关键取舍 |
 
-每次手动调用一个组件。交付当前环节的结果后结束；由用户决定何时进入下一环节。已有足够的输入时，可以直接从对应环节开始。发现会改变前一步结论的新证据时，记录具体影响和待确认事项，由用户决定调整哪些材料。任务已有约定的记录位置时，按[记录与接续](../preferences.md#记录与接续)同步结果。
+通过总入口选中组件后，展示所选 Skill 并执行当前环节。用户也可以直接点名组件。交付本环节后，由用户决定何时继续。已有足够的输入时，可以直接从对应环节开始。发现会改变前一步结论的新证据时，记录具体影响和待确认事项，由用户决定调整哪些材料。任务已有约定的记录位置时，按[记录与接续](../preferences.md#记录与接续)同步结果。
 
 整个流程的产出应能讲清业务为什么需要这个系统、主要场景与规则怎样运作，以及架构如何承接这些要求。
 
 ## 选择入口
 
-- 已有明确需求，只需写成规格时，用 [`$spec`](../../spec/SKILL.md)。需要调查多个角色、用例和业务规则时，用 [`$software-requirements`](../../software-requirements/SKILL.md)。
-- 想看懂一个局部机制时，用 [`$modeling`](../../modeling/SKILL.md)。需要把业务边界、系统协作和质量要求连起来时，用 [`$software-high-level-design`](../../software-high-level-design/SKILL.md)。
+- 已有明确需求，只需写成规格时，用 [`$spec`](../../spec/SKILL.md)。需要梳理用例、业务规则或开展 DDD 战略设计时，用 [`$software-requirements`](../../software-requirements/SKILL.md)。
+- 想看懂一个局部机制时，用 [`$modeling`](../../modeling/SKILL.md)。需要根据已有模型边界和质量要求设计模块、接口及协作方式时，用 [`$software-high-level-design`](../../software-high-level-design/SKILL.md)。
 - 需要追溯某条业务规则、架构选择或阈值当初为何确定时，可以单独调用 [`$why`](../../why/SKILL.md)，将历史依据带回需求或设计说明。
 
 ## 工程判断原则

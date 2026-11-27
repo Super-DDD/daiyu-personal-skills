@@ -1,0 +1,6 @@
+interface:
+  display_name: "Aligning｜对齐想法"
+  short_description: "围绕一个问题持续追问，通过逐轮访谈对齐双方的目标、想法和需求"
+  default_prompt: "用 $aligning 围绕这个问题逐轮问我，直到我们对齐目标、想法和需求。"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Code Mastery｜代码掌握度检验"
+  short_description: "从实际改动中选取审查问题，逐轮追问，帮我形成有依据的审查意见"
+  default_prompt: "用 $code-mastery 围绕这次改动向我提问，一次问一个问题。"
+policy:
+  allow_implicit_invocation: false

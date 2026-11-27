@@ -1,0 +1,6 @@
+interface:
+  display_name: "Challenging"
+  short_description: "围绕讨论中的关键点逐轮提问，答后反馈，换个场景继续检验理解"
+  default_prompt: "用 $challenging 围绕刚才讨论的关键点考考我。每轮等我答完，先给反馈，再接着问下一轮。"
+policy:
+  allow_implicit_invocation: false
