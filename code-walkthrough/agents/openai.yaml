@@ -1,0 +1,6 @@
+interface:
+  display_name: "Code Walkthrough｜代码走读"
+  short_description: "沿业务用例和真实源码逐段走读，按我的疑问展开关键接口与调用"
+  default_prompt: "用 $code-walkthrough 带我沿一个业务用例走读这次改动。"
+policy:
+  allow_implicit_invocation: false
